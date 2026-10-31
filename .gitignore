@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/
+mlruns/
+mlartifacts/
+catboost_info/
+*.pkl
+*.joblib

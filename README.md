@@ -38,3 +38,7 @@ python -m unittest discover -s tests -v
 
 These checks use synthetic data to verify fold-local preprocessing, deterministic evaluation, input preservation, target separation, and explicit schema errors. They do not validate the original survey, reproduce historical scores, or train the notebook's models.
 
+
+## License
+
+[MIT](LICENSE).

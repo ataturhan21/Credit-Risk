@@ -2,9 +2,9 @@ name: Baseline checks
 
 on:
   push:
-    paths: ["credit_risk.py", "tests/**", "requirements-baseline.txt", ".github/workflows/checks.yml"]
+    paths: ["credit_risk.py", "Credit Risk Regression.ipynb", "tests/**", "requirements-baseline.txt", ".github/workflows/checks.yml"]
   pull_request:
-    paths: ["credit_risk.py", "tests/**", "requirements-baseline.txt", ".github/workflows/checks.yml"]
+    paths: ["credit_risk.py", "Credit Risk Regression.ipynb", "tests/**", "requirements-baseline.txt", ".github/workflows/checks.yml"]
   workflow_dispatch:
 
 permissions:

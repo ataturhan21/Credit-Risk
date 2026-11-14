@@ -8,7 +8,7 @@ Survey-based regression of the `mean_risk` target. The repository contains the o
 - [Original notebook](#original-notebook)
 - [Saved notebook results](#saved-notebook-results)
 - [Focused checks](#focused-checks)
-- [License](#license)
+- [Copyright](#copyright)
 
 ## Run the baseline
 
@@ -67,6 +67,6 @@ python -m unittest discover -s tests -v
 
 The baseline checks use synthetic data to verify fold-local preprocessing, deterministic evaluation, input preservation, target separation, and explicit schema errors. The notebook checks read the notebook's source cells (nothing is executed) to guard the fixes listed above. None of them validate the original survey, reproduce historical scores, or train the notebook's models. CI runs the same command on changes to the baseline, the notebook or the tests.
 
-## License
+## Copyright
 
-[MIT](LICENSE).
+© Ata Turhan. All rights reserved. This repository has no open-source license: its code may not be copied, modified or redistributed.
